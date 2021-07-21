@@ -1,0 +1,14 @@
+
+
+grant {
+  permission java.net.SocketPermission "localhost:45678", "connect, resolve";
+};
+
+grant {
+  permission java.io.FilePermission "..${/}-", "read,write";
+  permission java.util.PropertyPermission "user.dir", "read";
+};
+
+grant codeBase "file:${java.home}/lib/ext/*" { 
+  permission java.security.AllPermission; 
+};
