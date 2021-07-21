@@ -89,9 +89,9 @@ bash virgin.sh or ./virgin.sh
 
 ***viewfollowers*** – get the list of the customer's followers.
 
-***post \<photo>*** – sends a photograph (photo) to the customer's profile stored in the server.
+***post \<photo>*** – sends a photograph (photo) to the user profile stored in the server.
 
-***wall \<nPhotos>*** - receives the latest nPhotos photos that are in profiles of the users followed, as well as the number of likes of each photo (showing everything on the wall).
+***wall \<nPhotos>*** - receives the latest nPhotos photos posted by users followed, as well as the number of likes of each photo (showing everything on the wall).
 
 ***newgroup \<groupID>*** – creates a private group, whose owner will be the client that created it.
 
