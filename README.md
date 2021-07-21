@@ -7,7 +7,7 @@ It's a client-server type system that allows users (clients) to use a central se
 ---
 
 ## Project Goal
-Develop and practice fundamental security and reliability concepts in secure distributed applications, where server and clients run in sandboxes
+Develop and practice fundamental security and reliability concepts in secure distributed applications, where server and clients run in sandboxes (server.policy and client.policy) 
 
 ---
 
