@@ -27,6 +27,10 @@ Java SE, Java Security API
 
 2 - There are two different ways to run the project
 
+> ***Note to run clients***: You can register or login with any name and password you want. Example: name: John, Password: helloWorld  
+> Format to run the program: \<other arguments> John helloWorld  
+> You can change the parameters John and helloWorld as much as you want, but keep the remaining parameters as shown below.
+
 2.1 - Run with Jar:
 
 - To run the server:
