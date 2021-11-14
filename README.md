@@ -87,37 +87,17 @@ bash virgin.sh or ./virgin.sh
 
 ## Instructions to request an action on the application terminal
 
-***follow \<userID>*** – adds the client (clientID) to the list of followers of the user userID.
-
-***unfollow \<userID>*** - removes the client (clientID) from the userID user list of followers.
-
-***viewfollowers*** – get the list of the customer's followers.
-
-***post \<photo>*** – sends a photograph (photo) to the user profile stored in the server.
-
-***wall \<nPhotos>*** - receives the latest nPhotos photos posted by users followed, as well as the number of likes of each photo (showing everything on the wall).
-
-***newgroup \<groupID>*** – creates a private group, whose owner will be the client that created it.
-
-***addu \<userID> \<groupID>*** – adds the user userID as a member of the specified group. Only group owners can add users to their groups
-
-***removed \<userID> \<groupID>*** – removes the user userID from the specified group. Only the group owners can remove users from their groups
-
-***ginfo \<groupID>*** – if groupID is not specified, displays a list of groups from which the client owns, and a list of the groups to which it belongs. If specified the groupID, shows the owner of the group and a list of the group members.
-
-***msg \<groupID> \<msg>*** – sends a message (msg) to the group groupID, which will remain saved in a group mailbox on the server. The message will be accessible to group members via the collect command. 
-
-***collect \<groupID>*** – receive all messages that have been sent to the group groupID and that the client has not yet received. For example, if the message box from the group has 3 messages (m1, m2, m3), if user u1 has already received the messages m1 and m2 and user u2 hasn't received any yet, so command execution by
-user u1 will only return m3, but if executed by user u2 it will return 3 posts. If there is no new message, this fact should be noted. Users only have access to messages sent after joining the group.
-When a message is read by all users, it is removed from the mailbox and placed in a group history. 
-Group owners count as members for the purpose of removing messages from the mailbox, ie the owners
-they also receive the messages they themselves sent.
-
-***history \<groupID>*** – shows the mailbox history of the indicated group that the client has already
-read previously.
-
-
-
-
-
-
+| Instruction                      | Function                            
+|:--------------------------------:|:--------------------------------
+| follow \<userID>                 | adds the client (clientID) to the list of followers of the user userID.
+| unfollow \<userID>               | removes the client (clientID) from the userID user list of followers.
+| viewfollowers                    | get the list of the customer's followers.
+| post \<photo>                    | sends a photograph (photo) to the user profile stored in the server.
+| wall \<nPhotos>                  | receives the latest nPhotos photos posted by users followed, as well as the number of likes of each photo (showing everything on the wall).
+| newgroup \<groupID>              | creates a private group, whose owner will be the client that created it.
+| addu \<userID> \<groupID>        | adds the user userID as a member of the specified group. Only group owners can add users to their groups
+| removed \<userID> \<groupID>     | removes the user userID from the specified group. Only the group owners can remove users from their groups
+| ginfo \<groupID>                 | if groupID is not specified, displays a list of groups from which the client owns, and a list of the groups to which it belongs. If specified the groupID, shows the owner of the group and a list of the group members.
+| msg \<groupID> \<msg>            | sends a message (msg) to the group groupID, which will remain saved in a group mailbox on the server. The message will be accessible to group members via the collect command. 
+| collect \<groupID>               | receive all messages that have been sent to the group groupID and that the client has not yet received. For example, if the message box from the group has 3 messages (m1, m2, m3), if user u1 has already received the messages m1 and m2 and user u2 hasn't received any yet, so command execution by user u1 will only return m3, but if executed by user u2 it will return 3 posts. If there is no new message, this fact should be noted. Users only have access to messages sent after joining the group. When a message is read by all users, it is removed from the mailbox and placed in a group history. Group owners count as members for the purpose of removing messages from the mailbox, ie the owners they also receive the messages they themselves sent.
+| history \<groupID>               | shows the mailbox history of the indicated group that the client has already read previously.
