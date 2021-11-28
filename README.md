@@ -1,7 +1,11 @@
 # InstagramClone
 
 InstagramClone is an application that aims to simulate Instagram.
-It's a client-server type system that allows users (clients) to use a central server for sharing photos and communicating with other users. The system supports two modes of functioning. The Feed Mode (wall) and the Chat Mode. In Feed mode (wall), users post photos on their public profile saved on the server. Users can follow any other users, and can see photos posted by others on their feed (wall). The application also allows you to drop and remove a like from these photos. In Chat Mode, users can send messages to private groups of users, and read messages sent to the groups they belong to. Each user has an account on the server,  can follow any other user freely, and can belong to several private access groups. 
+It's a client-server type system that allows users (clients) to use a central server for sharing photos and communicating with other users. 
+
+The system supports two modes of functioning. The Feed Mode (wall) and the Chat Mode. In Feed mode (wall), users post photos on their public profile saved on the server. Users can follow any other users, and can see photos posted by others on their feed (wall). 
+
+The application also allows you to drop and remove a like from these photos. In Chat Mode, users can send messages to private groups of users, and read messages sent to the groups they belong to. Each user has an account on the server,  can follow any other user freely, and can belong to several private access groups. 
 
 The application has no instagram lookalike interface. It's only java backend, with a terminal interface.
 
