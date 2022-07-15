@@ -111,7 +111,7 @@ bash virgin.sh or ./virgin.sh
 
 * [Java SE](https://www.oracle.com/java/) - Programming Language;
 * [Java Security API](https://docs.oracle.com/javase/10/security/java-security-overview1.htm#JSSEC-GUID-2EF91196-D468-4D0F-8FDC-DA2BEA165D10) - Security API;
-* [Bash](https://www.gnu.org/software/bash/) - GNU Project's shell—the Bourne Again SHell;
+* [Bash](https://www.gnu.org/software/bash/) - GNU Project's shell the Bourne Again SHell;
 
 ---
 
