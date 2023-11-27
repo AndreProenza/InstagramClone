@@ -28,6 +28,9 @@ Develop and practice fundamental security and reliability concepts in secure dis
 
 ## Instructions to Execute
 
+<details>
+  <summary align="left"><b>&nbsp;Show more</b></summary>
+	
 1 - unzip project
 
 2 - There are two different ways to run the project
@@ -88,10 +91,15 @@ go to the InstagramClone-master directory/ open a terminal and write:
 bash virgin.sh or ./virgin.sh
 ```
 
+</details>
+
 ---
 
 ## Instructions to request an action on the application terminal
 
+<details>
+  <summary align="left"><b>&nbsp;Show more</b></summary>
+	
 | Instruction                      | Function                            
 |:--------------------------------:|:--------------------------------
 | follow \<userID>                 | adds the client (clientID) to the list of followers of the user userID.
@@ -106,6 +114,8 @@ bash virgin.sh or ./virgin.sh
 | msg \<groupID> \<msg>            | sends a message (msg) to the group groupID, which will remain saved in a group mailbox on the server. The message will be accessible to group members via the collect command. 
 | collect \<groupID>               | receive all messages that have been sent to the group groupID and that the client has not yet received. For example, if the message box from the group has 3 messages (m1, m2, m3), if user u1 has already received the messages m1 and m2 and user u2 hasn't received any yet, so command execution by user u1 will only return m3, but if executed by user u2 it will return 3 posts. If there is no new message, this fact should be noted. Users only have access to messages sent after joining the group. When a message is read by all users, it is removed from the mailbox and placed in a group history. Group owners count as members for the purpose of removing messages from the mailbox, ie the owners they also receive the messages they themselves sent.
 | history \<groupID>               | shows the mailbox history of the indicated group that the client has already read previously.
+
+</details>
 
 ---
 
